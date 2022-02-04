@@ -1,0 +1,29 @@
+name: 'ssh_deploy'
+description: 'Deploy files via SSH using key authentication'
+author: 'Moonpath'
+inputs:
+  host:
+    description: 'remote host'
+    required: true
+  username:
+    description: 'remote user'
+    required: true
+  port:
+    description: 'remote port'
+    default: 22
+  key:
+    description: 'ssh private key (~/.ssh/id_rsa)'
+    required: true
+  source:
+    description: 'source files path'
+    required: false
+  target:
+    description: 'destination path'
+    required: false
+
+runs:
+  using: 'docker'
+  image: 'Dockerfile'
+branding:
+  icon: 'package'
+  color: 'black'
