@@ -25,8 +25,8 @@ Then go to *Settings>Secrets* of your repository in Github and create the follow
 
 - `HOST`: Containing the remote server hostname or ip address.
 - `PORT`: Containing the remote server SSH port.
-- 'USERNAME': Containing username used for SSH/SCP login.
-- 'SSH_KEY': Private SSH key.
+- `USERNAME`: Containing username used for SSH/SCP login.
+- `SSH_KEY`: Private SSH key.
 
 The public key (id_ed25519.pub) should be stored at *~/.ssh/authorized_keys* on the server where the upload should be done.
 
