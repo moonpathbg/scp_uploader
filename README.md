@@ -55,3 +55,8 @@ jobs:
           source: "./"
           target: "~/"
 ```
+
+## Note on security
+
+It's recommended to use dedicated user for such deploy task and also have this user locked in it's home with [MySecureShell](https://mysecureshell.readthedocs.io/en/latest/) for example.
+
