@@ -1,5 +1,5 @@
-name: 'ssh_deploy'
-description: 'Deploy files via SSH using key authentication'
+name: 'SCP Uploader'
+description: 'Deploy/upload files via SSH using key based authentication'
 author: 'Moonpath'
 inputs:
   host:
